@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.dvbviewer" version="3.4.2.2" name="DVBViewer Client" provider-name="A600, Manuel Mausz">
+<addon id="pvr.dvbviewer" version="3.4.4.2" name="DVBViewer Client" provider-name="A600, Manuel Mausz">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.instance.pvr" version="5.9.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.dvbviewer.so.3.4.2"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.dvbviewer.so.3.4.4"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi se voorprogram vir DVBViewer</summary>
     <summary lang="be_BY">Kodi's frontend for DVBViewer</summary>
