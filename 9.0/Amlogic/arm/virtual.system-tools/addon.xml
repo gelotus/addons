@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="virtual.system-tools"
+       name="System Tools"
+       version="9.0.107"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A bundle of system tools and programs</summary>
+    <description>
+This bundle currently includes autossh, diffutils, dtach, efibootmgr, evtest, fdupes, file, getscancodes, hddtemp, hd-idle, hid_mapper, i2c-tools, inotify-tools, jq, lm_sensors, lshw, mc, mrxvt, mtpfs, nmon, p7zip, patch, pv, screen, strace, unrar and usb-modeswitch.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+107
+- added dstat, htop and vim
+- updated difftools to 3.6
+- updated dtach to 0.9
+- updated fdupes to 1.6.1
+- updated file to 5.31
+- updated hd-idle to 1.05
+- updated hddtemp to 0.3-beta16
+- updated hid_mapper to 2.1.0
+- updated libmtp to 1.1.13
+- updated lm_sensors to 0d5ccf6
+- updated lshw to 2.18
+- updated mc to 4.8.19
+- updated mtpfs to fd3864d
+- updated p7zip to 16.02
+- updated strace to 4.17
+- updated unrar to 5.5.5
+
+106
+- updated screen, fix colors issue
+
+104
+- updated file package
+
+103
+- added nmon
+
+102
+- added inotify-tools, mc
+
+101
+- mrxvt can be started from KODI
+- correct mrxvt terminal type
+- make hddtemp work
+
+100
+- Initial Release
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>

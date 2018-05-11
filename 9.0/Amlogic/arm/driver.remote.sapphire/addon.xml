@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="driver.remote.sapphire"
+       name="Sapphire Remote Driver"
+       version="9.0.103"
+       provider-name="Team CoreELEC">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A Linux driver to add support for sapphire remotes</summary>
+    <description>
+A Linux driver to add support for sapphire remotes
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+8.0.102
+- Rebuild driver against 4.8 kernel
+
+8.0.101
+- Rebuild driver against 4.7 kernel
+
+8.0.100
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
