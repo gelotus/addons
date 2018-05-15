@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.tvheadend42" name="Tvheadend Server 4.2" version="9.0.115" provider-name="Team CoreELEC">
-  <requires><import addon="os.libreelec.tv" version="9.0"/><import addon="xbmc.python" version="2.1.0"/>
+  <requires><import addon="xbmc.python" version="2.1.0"/>
 
   </requires>
   <extension point="xbmc.service" library="default.py">

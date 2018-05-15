@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.njoy" version="3.3.1.2" name="Njoy N7 PVR Client" provider-name="Team Kodi">
+<addon id="pvr.njoy" version="3.3.2.2" name="Njoy N7 PVR Client" provider-name="Team Kodi">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.instance.pvr" version="5.9.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.njoy.so.3.3.1"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.njoy.so.3.3.2"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Njoy N7 PVR Kliënt</summary>
     <summary lang="am_ET">Njoy N7 PVR Client</summary>
     <summary lang="be_BY">Кліент Njoy N7 PVR</summary>
-    <summary lang="bg_BG">Njoy N7 ПВР клиент</summary>
+    <summary lang="bg_BG">Клиент за ПВР „Njoy N7“</summary>
     <summary lang="ca_ES">Client PVR Njoy N7</summary>
     <summary lang="cs_CZ">Klient PVR Njoy N7</summary>
     <summary lang="cy_GB">Rhaglen Rhaglenni Njoy N7</summary>

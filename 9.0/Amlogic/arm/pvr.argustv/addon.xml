@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.argustv" version="3.4.2.2" name="ARGUS TV client" provider-name="Fred Hoogduin, Marcel Groothuis">
+<addon id="pvr.argustv" version="3.4.3.2" name="ARGUS TV client" provider-name="Fred Hoogduin, Marcel Groothuis">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.instance.pvr" version="5.9.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.argustv.so.3.4.2"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.argustv.so.3.4.3"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi voorprogram vir die ARGUS TV PVR http://www.argus-tv.com//</summary>
     <summary lang="be_BY">Kodi frontend for the ARGUS TV PVR http://www.argus-tv.com//</summary>
-    <summary lang="bg_BG">Клиент на Kodi за ПВР ARGUS TV – http://www.argus-tv.com//</summary>
+    <summary lang="bg_BG">Клиент за ПВР „ARGUS TV“ – http://www.argus-tv.com//</summary>
     <summary lang="ca_ES">Frontal de Kodi per al PVR ARGUS TV http://www.argus-tv.com//</summary>
     <summary lang="cs_CZ">Rozhraní Kodi pro ARGUS TV PVR http://www.argus-tv.com/</summary>
     <summary lang="cy_GB">Pen blaen Kodi ar gyfer ARGUS TV PVR http://www.argus-tv.com//</summary>
@@ -64,7 +64,7 @@
     <summary lang="zh_TW">ARGUS TV PVR 'http://www.argus-tv.com//' 可使用的Kodi前端</summary>
     <description lang="af_ZA">ARGUS TV PVR voorprogram. Ondersteun stroom van Lewendige TV &amp; Opnames, luister na Radio kanale, EPG en skedules.</description>
     <description lang="be_BY">ARGUS TV PVR frontend. Supports streaming of Live TV &amp; Recordings, listening to Radio channels, EPG and schedules.</description>
-    <description lang="bg_BG">Клиент за ПВР ARGUS TV. Поддържа поточна телевизия и записване, слушане на радио канали, електронен програмен справочник и графици.</description>
+    <description lang="bg_BG">Клиент за ПВР „ARGUS TV“. Поддържа телевизия на живо и записване, слушане на радио канали, електронен програмен справочник и графици.</description>
     <description lang="ca_ES">Frontal del PVR ARGUS TV. És compatible amb les transmissions en línia de TV en directe i enregistraments, escolta d'emissores de ràdio, guia electrònica de programació (EPG) i programacions.</description>
     <description lang="cs_CZ">Rozhraní ARGUS TV PVR. Podporuje streamování živého vysílání a nahrávání, poslech kanálů rádia, televizní program a plánování.</description>
     <description lang="cy_GB">Pen blaen ARGUS TV PVR. Mae'n cynnal ffrydio Teledu Byw a Recordiadau, gwrando ar sianeli Radio ac Amserlenni Rhaglenni Electronig.</description>
@@ -181,4 +181,3 @@
     <platform>linux</platform>
   </extension>
 </addon>
-

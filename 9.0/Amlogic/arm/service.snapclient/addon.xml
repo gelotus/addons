@@ -4,7 +4,6 @@
        version="9.0.101"
        provider-name="Anton Voyl (awiouy)">
   <requires>
-    <import addon="os.libreelec.tv" version="9.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
   </requires>
