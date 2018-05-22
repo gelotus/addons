@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.multimedia.mpd"
        name="Music Player Daemon (MPD)"
-       version="9.0.104"
+       version="9.0.105"
        provider-name="Team CoreELEC">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -21,6 +21,10 @@ Music Player Daemon (0.20.19) is a flexible and powerful server-side application
     </disclaimer>
     <platform>all</platform>
     <news>
+105
+- updated mpd to 0.20.19
+- added mpd cli client mpc
+
 104
 - update mpd to 0.20.13
 - build with more features
@@ -40,11 +44,6 @@ Music Player Daemon (0.20.19) is a flexible and powerful server-side application
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-nart.png</fanart>
 
     </assets>
   </extension>
