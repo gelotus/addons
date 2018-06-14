@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.stalker" version="3.3.3.2" name="Stalker Client" provider-name="Jamal Edey">
+<addon id="pvr.stalker" version="3.3.5.2" name="Stalker Client" provider-name="Jamal Edey">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
-    <import addon="kodi.binary.instance.pvr" version="5.9.0"/>
+    <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.stalker.so.3.3.3"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.stalker.so.3.3.5"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">PVR Kliënt om Kodi aan Stalker Middleware te konnekteer</summary>
-    <summary lang="bg_BG">ПВР клиент за свързване на Kodi с Stalker Middleware</summary>
+    <summary lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Stalker Middleware“</summary>
     <summary lang="ca_ES">Client PVR per connectar Kodi al Middleware Stalker</summary>
     <summary lang="cs_CZ">Klient PVR pro připojení Kodi k Stalker Middleware</summary>
     <summary lang="da_DK">PVR klient som forbinder Kodi til Stalker Middleware</summary>
@@ -51,7 +51,7 @@
     <summary lang="zh_CN">Kodi 连接 Stalker Middleware 的 PVR 客户端</summary>
     <summary lang="zh_TW">連接至 Stalker Middleware 的Kodi PVR用戶端</summary>
     <description lang="af_ZA">PVR Kliënt om Kodi aan Stalker Middleware te konnekteer</description>
-    <description lang="bg_BG">ПВР клиент за свързване на Kodi със Stalker Middleware</description>
+    <description lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Stalker Middleware“</description>
     <description lang="ca_ES">Client PVR per connectar Kodi al Middleware Stalker</description>
     <description lang="cs_CZ">Klient PVR pro připojení Kodi k Stalker Middleware</description>
     <description lang="da_DK">PVR klient som forbinder Kodi til Stalker Middleware</description>
@@ -113,7 +113,7 @@
     <disclaimer lang="et_EE">See on ebastabiilne tarkvara! Autorid ei ole kuidagi moodi vastutavad nurjunud salvestiste, ebaõige aegrelee, raisatud tundide ega muude soovimatute asjade eest.</disclaimer>
     <disclaimer lang="eu_ES">Software hau beta bertsioan dago! Egilea ez da arduratzen grabaketa erroretaz, kronometro erroreak, hordu galduak edo beste edozein ondorio ezerosotaz</disclaimer>
     <disclaimer lang="fi_FI">Tämä on epävakaa ohjelma! Sen tekijät eivät ole millään muotoa vastuussa epäonnistuneista tallennuksista, virheellisistä ajastuksista, haaskatusta ajasta, verenpaineen noususta tai mistään muusta epäsuotuisasta vaikutuksesta.</disclaimer>
-    <disclaimer lang="fr_CA">Ce logiciel est instable! Les auteurs ne sont aucunement responsables des enregistrements défaillants, des minuteries erronées, des heures perdues ou tout autre effet indésirable.</disclaimer>
+    <disclaimer lang="fr_CA">Ce logiciel est instable ! Les auteurs ne sont aucunement responsables des enregistrements défaillants, des minuteries erronées, des heures perdues ou tout autre effet indésirable.</disclaimer>
     <disclaimer lang="fr_FR">Logiciel en cours d'élaboration ! Les auteurs ne sont en aucun cas responsables de l'échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
     <disclaimer lang="gl_ES">Software non estable, os autores non se fan responsábeis dos erros na gravacións, temporizadores incorrectos, e outros efectos non desexados.</disclaimer>
     <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
@@ -155,8 +155,5 @@
     <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
     <disclaimer lang="zh_TW">這是測試版軟體！其原創作者並無法對於以下情況負責，包含：錄影失敗，不正確的定時設定，多餘時數，或任何產生的其它不良影響...</disclaimer>
     <platform>linux</platform>
-  </extension>
-</addon>
->
   </extension>
 </addon>

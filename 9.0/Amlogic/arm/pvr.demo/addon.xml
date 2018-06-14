@@ -2,7 +2,7 @@
 <addon id="pvr.demo" version="3.5.4.2" name="PVR Demo Client" provider-name="Pulse-Eight Ltd., Team Kodi">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
-    <import addon="kodi.binary.instance.pvr" version="5.9.0"/>
+    <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
   <extension point="xbmc.pvrclient" library_linux="pvr.demo.so.3.5.4"/>
   <extension point="xbmc.addon.metadata">

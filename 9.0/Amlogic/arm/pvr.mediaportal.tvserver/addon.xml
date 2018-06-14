@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.mediaportal.tvserver" version="3.4.5.2" name="MediaPortal PVR Client" provider-name="Marcel Groothuis">
+<addon id="pvr.mediaportal.tvserver" version="3.4.6.2" name="MediaPortal PVR Client" provider-name="Marcel Groothuis">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.global.gui" version="5.12.0"/>
-    <import addon="kodi.binary.instance.pvr" version="5.9.0"/>
+    <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.mediaportal.tvserver.so.3.4.5"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.mediaportal.tvserver.so.3.4.6"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi voorprogram vir die MediaPortal TV Bediener (ffmpeg + tsreader weergawe)</summary>
     <summary lang="be_BY">Kodi frontend for the MediaPortal TV Server (ffmpeg + tsreader version)</summary>
@@ -25,7 +25,7 @@
     <summary lang="es_MX">Kodi frontend para el MediaPortal TV Server</summary>
     <summary lang="et_EE">Kodi liides MediaPortal TV serverile</summary>
     <summary lang="fi_FI">Kodin MediaPortal TV-server -asiakasohjelma</summary>
-    <summary lang="fr_CA">Frontal Kodi pour le serveur MediaPortal TV</summary>
+    <summary lang="fr_CA">Frontal Kodi pour le serveur télé MediaPortal</summary>
     <summary lang="fr_FR">Interface logicielle Kodi pour le serveur TV de MediaPortal</summary>
     <summary lang="gl_ES">O Interface do Kodi para o Servidor de TV de MediaPortal (versión de ffmpeg + tsreader)</summary>
     <summary lang="he_IL">לקוח טלוויזיה חיה עבור MediaPortal (גרסת FFmpeg ו־TSReader)</summary>
@@ -76,7 +76,7 @@
     <description lang="es_MX">MediaPortal TV Server frontend. Soporta streaming de TV y grabaciones en vivo, escucha de canales de radio, EPG y temporizadores.</description>
     <description lang="et_EE">MediaPortal TV serveri esi. Toetab telekanalite striimimist ja salvestamist, raadio kuulamist ja elektroonilist saatekava. See lisa kombineerib endas endised ffmpeg ja tsreader lisad.</description>
     <description lang="fi_FI">MediaPortal TV Serverin asiakasohjelma. Tukee suorien tv-lähetysten ja tallennusten katsomista, radiokanavia, ohjelmaopasta ja ohjelmien ajastamista.</description>
-    <description lang="fr_CA">Frontal pour le serveur MediaPortal TV, prenant en charge la diffusion en continu des télés en direct et les enregistrements, l’écoute de chaînes radio, le GÉP et les minuteries.</description>
+    <description lang="fr_CA">Frontal pour le serveur télé MediaPortal, prenant en charge la diffusion en continu des télés en direct et les enregistrements, l’écoute de chaînes radio, le GÉP et les minuteries.</description>
     <description lang="fr_FR">Interface logicielle pour le serveur TV de MediaPortal. Il gère la lecture et l'enregistrement en continu de la TV en direct, l'écoute de radios, le guide électronique des programmes TV et les programmations.</description>
     <description lang="gl_ES">Interface do Servidor de TV de MediaPortal. Soporta transmisión de TV en directo e Gravacións, escoita de canles de radio, Guía e programacións. Este complemento combina o antigo ffmpeg e os complementos tsreader.</description>
     <description lang="he_IL">לקוח טלוויזיה חיה של MediaPortal. תומך בהזרמת שידורים חיים והקלטות, האזנה לרדיו, הצגת לוח שידורים ותזמון הקלטות. הרחבה זו משלבת את ההרחבות הקודמות המבוססות על FFmpeg ו־TSReader.</description>
@@ -166,10 +166,6 @@
     <disclaimer lang="vi_VN">Đây là phần mềm không ổn định! Các tác giả không chịu trách nhiệm đối với bản ghi âm thất bại, giờ không chính xác, giờ lãng phí, hoặc bất kỳ tác dụng không mong muốn khác...</disclaimer>
     <disclaimer lang="zh_CN">作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
     <disclaimer lang="zh_TW">這是測試版軟體！其原創作者並無法對於以下情況負責，包含：錄影失敗，不正確的定時設定，多餘時數，或任何產生的其它不良影響...</disclaimer>
-    <platform>linux</platform>
-  </extension>
-</addon>
-�多餘時數，或任何產生的其它不良影響...</disclaimer>
     <platform>linux</platform>
   </extension>
 </addon>

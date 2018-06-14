@@ -12,13 +12,16 @@
   <extension point="xbmc.addon.metadata">
     <summary>Tvheadend: a TV streaming server for Linux</summary>
     <description>
-Tvheadend (4.2.6-1): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
+Tvheadend (4.2.6-7): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+115
+- update to 4.2.6-7
+
 114
 - update to 4.2.5-31
 - addded manual Scan-Table update

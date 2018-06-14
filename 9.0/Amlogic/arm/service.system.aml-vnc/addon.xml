@@ -4,7 +4,6 @@
        version="9.0.3"
        provider-name="kszaq (kszaquitto at gmail.com)">
   <requires>
-    <import addon="os.libreelec.tv" version="9.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
   </requires>
