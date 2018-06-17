@@ -2,7 +2,7 @@
 <addon id="pvr.iptvsimple" version="3.5.0.2" name="PVR IPTV Simple Client" provider-name="nightik">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
-    <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
+    <import addon="kodi.binary.instance.pvr" version="5.9.0"/>
   </requires>
   <extension point="xbmc.pvrclient" library_linux="pvr.iptvsimple.so.3.5.0"/>
   <extension point="xbmc.addon.metadata">
