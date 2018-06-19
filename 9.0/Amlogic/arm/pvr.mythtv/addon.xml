@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.mythtv" version="5.7.3.2" name="MythTV PVR Client" provider-name="Christian Fetzer, Jean-Luc Barrière">
+<addon id="pvr.mythtv" version="5.8.0.2" name="MythTV PVR Client" provider-name="Christian Fetzer, Jean-Luc Barrière">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.global.gui" version="5.12.0"/>
     <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.mythtv.so.5.7.3"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.mythtv.so.5.8.0"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi voorprogram vir MythTV</summary>
     <summary lang="be_BY">Kodi frontend for MythTV</summary>

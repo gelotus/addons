@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.demo" version="3.5.4.2" name="PVR Demo Client" provider-name="Pulse-Eight Ltd., Team Kodi">
+<addon id="pvr.demo" version="3.6.0.2" name="PVR Demo Client" provider-name="Pulse-Eight Ltd., Team Kodi">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.demo.so.3.5.4"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.demo.so.3.6.0"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Demo PVR Kliënt</summary>
     <summary lang="am_ET">የ PVR ደንበኛ ናሙና </summary>

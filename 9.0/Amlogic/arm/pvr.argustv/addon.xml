@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.argustv" version="3.4.4.2" name="ARGUS TV client" provider-name="Fred Hoogduin, Marcel Groothuis">
+<addon id="pvr.argustv" version="3.5.0.2" name="ARGUS TV client" provider-name="Fred Hoogduin, Marcel Groothuis">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.argustv.so.3.4.4"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.argustv.so.3.5.0"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi voorprogram vir die ARGUS TV PVR http://www.argus-tv.com//</summary>
     <summary lang="be_BY">Kodi frontend for the ARGUS TV PVR http://www.argus-tv.com//</summary>

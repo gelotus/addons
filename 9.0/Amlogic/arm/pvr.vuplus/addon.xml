@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.vuplus" version="3.6.5.2" name="VU+ / Enigma2 Client" provider-name="Joerg Dembski">
+<addon id="pvr.vuplus" version="3.7.0.2" name="VU+ / Enigma2 Client" provider-name="Joerg Dembski">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.vuplus.so.3.6.5"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.vuplus.so.3.7.0"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi se voorprogram vir VU+ / Enigma2 gebasseerde 'set-top' bokse</summary>
     <summary lang="be_BY">Kodi's frontend for VU+ / Enigma2 based settop boxes</summary>

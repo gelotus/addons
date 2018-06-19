@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.filmon" version="2.3.5.2" name="PVR Filmon Client" provider-name="Stephen Denham">
+<addon id="pvr.filmon" version="2.4.0.2" name="PVR Filmon Client" provider-name="Stephen Denham">
   <requires>
     <import addon="kodi.binary.global.main" version="1.0.13"/>
     <import addon="kodi.binary.instance.pvr" version="5.10.0"/>
   </requires>
-  <extension point="xbmc.pvrclient" library_linux="pvr.filmon.so.2.3.5"/>
+  <extension point="xbmc.pvrclient" library_linux="pvr.filmon.so.2.4.0"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Filmon PVR Kliënt</summary>
     <summary lang="be_BY">Filmon PVR кліент</summary>
